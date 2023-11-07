@@ -1,6 +1,12 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
-    "ghcr.io/devcontainers/features/sshd:1": {}
+    "ghcr.io/devcontainers/features/sshd:1": {},
+    "ghcr.io/devcontainers-contrib/features/apt-packages:1": {},
+    "ghcr.io/devcontainers-contrib/features/apt-get-packages:1": {},
+    "ghcr.io/devcontainers/features/java:1": {
+      "version":"7",
+      "jdkDistro":"oracle"
+    }
   }
 }
